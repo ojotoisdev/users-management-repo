@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -13,6 +14,8 @@ body {
 
 /* Container */
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin: auto;
   padding: 20px;
@@ -21,11 +24,12 @@ body {
 /* User List */
 .user-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   justify-content: center;
   padding: 20px;
 }
+
 
 /* User Card */
 .user-card {
@@ -64,7 +68,7 @@ body {
   border: none;
   padding: 10px 15px;
   border-radius: 6px;
-  cursor: pointer;
+  gap: 5%;
   font-size: 14px;
   transition: all 0.3s;
 }
