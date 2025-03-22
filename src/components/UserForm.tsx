@@ -41,6 +41,7 @@ const UserForm: React.FC<UserFormProps> = ({ existingUser, onClose }) => {
       name,
       email,
       address: { street, city },
+      
     };
 
     if (existingUser) {
